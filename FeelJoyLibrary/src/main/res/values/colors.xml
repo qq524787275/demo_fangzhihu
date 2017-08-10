@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- dialog -->
+    <color name="dialog_gray">#34000000</color>
+    <color name="dialog_blue">#ff0079ff</color>
+    <color name="dialog_button_press"> #D6DAE0</color>
+    
+    <!-- pagersliding -->
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="translucent_background">#60000000</color>
+    <color name="legacy_primary">#561a1a</color>
+    <!--  -->
+</resources>

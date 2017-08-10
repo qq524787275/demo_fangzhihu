@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="toolbar" type="id">10000</item>
+    <item name="title" type="id">10001</item>
+    <item name="title_right" type="id">10002</item>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_tab_item">
+        <item>日报</item>
+        <item>专栏</item>
+        <item>微信</item>
+        <item>热门</item>
+    </string-array>
+</resources>

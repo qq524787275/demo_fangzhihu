@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="colorPrimary">@color/green_27b443</item>
+            <item name="colorPrimaryDark">@android:color/transparent</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+    <style name="dialogWindowAnim" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+
+    <style name="Dialog_Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

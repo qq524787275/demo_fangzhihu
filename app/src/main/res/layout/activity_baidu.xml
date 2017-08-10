@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fz.zhihunews.activities.BaiduActivity">
+
+    <include layout="@layout/status_bar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/baidu_openlocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开启定位" />
+
+        <Button
+            android:id="@+id/baidu_closelocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="关闭定位" />
+
+    </LinearLayout>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/baidu_mapview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></com.baidu.mapapi.map.MapView>
+
+    <EditText
+        android:id="@+id/baidu_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入关键字"/>
+    <Button
+        android:id="@+id/baidu_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索"/>
+</LinearLayout>
